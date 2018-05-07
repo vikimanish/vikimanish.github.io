@@ -711,8 +711,8 @@ a.arrow-link:hover {
 }
 .heading {
 	padding: 3px 10px;
-	padding-bottom: 15px;
-	margin-bottom: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 	display: block; 
 }
 .pdingBtm30 {
