@@ -36,7 +36,14 @@ background-color: #ffb7b7b5 !important;
     }
    
 </style>
-<script>
+<style>
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 400px;  /* The height is 400 pixels */
+      width: 100%;  /* The width is the width of the web page */
+     }
+  </style>
+
     function play(){
          var audio = document.getElementById("audio");
          audio.play();
@@ -78,7 +85,7 @@ background-color: #ffb7b7b5 !important;
              </div>
          </div>
 </section>
-<section id="events" class="page-section colord">
+<!-- <section id="events" class="page-section colord">
     <div class="container">
       <div class="row"> 
         <!-- item -->
@@ -111,14 +118,14 @@ background-color: #ffb7b7b5 !important;
       </div>
     </div>
     <!--/.container--> 
-  </section>
+  </section> -->
   <section id="aboutUs">
     <div class="container">
       <div class="row feature design">
         <div class="six columns right">
           <h2>Bride’s story</h2>
           <p>Peru Abinaya. Kupudurathu Abi. Annangaluku Orae Thangai. Family kae Chella Ponnu.</p>
-          <p>Multi Talented Ponnu. Shuttle Champion. Designer. Romba amaithiyana ponnu(:D)</p>
+          <p>Multi Talented Ponnu. Masters in Computer. Shuttle Champion. Designer. Romba amaithiyana ponnu(:D)</p>
         </div>
         <div class="six columns feature-media left"> <img src="images/pic1.jpg" alt=""> </div>
       </div>
@@ -126,7 +133,7 @@ background-color: #ffb7b7b5 !important;
         <div class="six columns left">
           <h2>Groom’s story</h2>
           <p>Peru Vignesh Manikandan. Kupdurathu Vignesh . Ivaruku ivarae vachikita peru VikiManish. Oorukula Soft Engineer nu solranga. MBA vum padichurukaru sorry padikiraru</p>
-          <p> Akka galuku orae Thambi. Ivarum Veetuku chella pulla. Anbuku ivar adimai. Pesurathae oru talent ah vachirukaru</p>
+          <p> Akka galuku orae Thambi. Ivarum Veetuku chella pulla. Anbuku ivar adimai. Pesurathae oru talent ah vachirukaru.</p>
         </div>
         <div class="six columns feature-media right"> <img src="images/pic2.jpg" alt=""> </div>
       </div>
@@ -163,7 +170,7 @@ background-color: #ffb7b7b5 !important;
       var uluru = {lat: 8.174940, lng: 77.432269};
       // The map, centered at Uluru
       var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: uluru});
+          document.getElementById('map'), {zoom: 18, center: uluru});
       // The marker, positioned at Uluru
       var marker = new google.maps.Marker({position: uluru, map: map});
     }
@@ -171,6 +178,7 @@ background-color: #ffb7b7b5 !important;
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmP1JvwK629z4Xk_DryPuQR9i9aLbYanY&callback=initMap">
         </script>
+<script>
 <script src="js/modernizr-latest.js"></script> 
 <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
 <script src="js/bootstrap.min.js" type="text/javascript"></script> 
