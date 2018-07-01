@@ -98,9 +98,7 @@ var customScripts = {
 }
 $('document').ready(function () {
 	 $.backstretch([
-    
-    "images/img4.jpg"
-    , 
+    "images/img4.jpg" 
     , "images/img6.jpg"
   
   ], {duration: 3000, fade: 1250});
